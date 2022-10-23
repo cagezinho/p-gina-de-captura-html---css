@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(wallpapersden.com_vintage-4k-scenic_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+}
+
+form {
+    width: 350px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    line-height: 1.5em;
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.651);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 25px;
+}
+
+div > p {
+    font-size: 10px;
+    text-align: center;
+    color: rgb(221, 221, 221);
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#email::placeholder {
+    padding-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#enviar {
+    font-size: large;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom, rgb(49, 121, 49), rgba(85, 145, 77, 0.692));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+img {
+    display: flex;
+    width: 35px;
+    margin: auto;
+}
+
+
+
